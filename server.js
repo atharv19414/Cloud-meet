@@ -4,7 +4,7 @@ const https = require('https')
 const fs = require('fs');
 const moment = require('moment');
 const socketio = require('socket.io');
-const PORT = process.env.PORT || 443;
+const PORT = process.env.PORT || 3000;
 
 var key = fs.readFileSync(__dirname + '/ssl-certs/selfsigned.key');
 var cert = fs.readFileSync(__dirname + '/ssl-certs/selfsigned.crt');
